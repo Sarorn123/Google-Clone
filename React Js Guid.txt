@@ -1,0 +1,23 @@
+
+introduct to react
+
+install project
+explain file structur
+start 
+
+concept component
+parent child
+state
+props
+useEffect hook
+end
+
+// "start": "react-scripts start",
+ fetch('https://www.googleapis.com/books/v1/volumes?q=life',
+    
+    ).then( async (response) => {
+
+        const data = await response.json();
+        
+        console.log(data);
+    });
